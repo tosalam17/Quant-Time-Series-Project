@@ -1,0 +1,16 @@
+[project]
+name = "quant-time-series-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pandas-datareader>=0.10.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "yfinance>=1.2.1",
+]
