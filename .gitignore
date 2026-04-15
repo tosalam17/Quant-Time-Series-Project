@@ -15,7 +15,7 @@ build/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data files (optional — remove if you want data in repo)
+# Data files 
 *.csv
 *.xlsx
 *.parquet

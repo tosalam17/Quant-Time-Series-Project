@@ -7,10 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
+    "neuralforecast>=3.1.7",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
     "pandas-datareader>=0.10.0",
+    "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
     "statsmodels>=0.14.6",
+    "torch>=2.11.0",
     "yfinance>=1.2.1",
 ]
