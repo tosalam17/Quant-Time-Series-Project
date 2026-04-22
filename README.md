@@ -11,7 +11,7 @@ A end-to-end time-series forecasting pipeline comparing three models: **ARIMA**,
 |  |  |
 | :---- | :---- |
 | **Tickers** | AAPL, GOOGL, MSFT, NVDA |
-| **Data** | Daily OHLCV, Jan 2007 – Dec 2024 (\~4,500 trading days) |
+| **Data** | Daily OHLCV, Jan 2007 – Dec 2025 (\~4,500 trading days) |
 | **Target** | Log returns: r\_t \= ln(P\_t / P\_{t-1}) |
 | **Evaluation window** | 200-day out-of-sample test set (identical across all models) |
 | **Metrics** | RMSE, MAE on log returns |
@@ -112,7 +112,7 @@ Data collected via [yfinance](https://github.com/ranaroussi/yfinance) \- free, n
 
 import yfinance as yf
 
-data \= yf.download(\["AAPL", "MSFT", "GOOGL", "NVDA"\], start="2007-01-01", end="2024-12-31")
+data \= yf.download(\["AAPL", "MSFT", "GOOGL", "NVDA"\], start="2007-01-01", end="2025-12-31")
 
 ---
 
